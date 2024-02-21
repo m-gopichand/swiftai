@@ -1,0 +1,36 @@
+.cell {
+  margin-bottom: 1rem;
+}
+
+.cell > .sourceCode {
+  margin-bottom: 1rem;
+}
+
+.cell-output > pre {
+  margin-bottom: 1rem;
+}
+
+.cell-output > pre,
+.cell-output > .sourceCode > pre,
+.cell-output-stdout > pre {
+  margin-left: 1rem;
+  margin-top: 0;
+  background: none;
+  border-left: 2px solid #ff6347; /* darker shade of salmon */
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.cell-output > .sourceCode {
+  border: none;
+  background: none;
+  margin-top: 1rem;
+}
+
+div.description {
+  padding-left: 2px;
+  padding-top: 5px;
+  font-style: italic;
+  font-size: 1.2em; 
+  opacity: 0.8; 
+}
