@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "swiftai"
+  site-url: "https://m-gopichand.github.io/swiftai"
+  description: "Deep learning library"
+  repo-branch: main
+  repo-url: "https://github.com/m-gopichand/swiftai"
